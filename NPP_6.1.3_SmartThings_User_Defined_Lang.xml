@@ -1,0 +1,36 @@
+<NotepadPlus>
+    <UserLang name="SmartThings2" ext="">
+        <Settings>
+            <Global caseIgnored="no" />
+            <TreatAsSymbol comment="no" commentLine="yes" />
+            <Prefix words1="yes" words2="yes" words3="yes" words4="yes" />
+        </Settings>
+        <KeywordLists>
+            <Keywords name="Delimiters">&quot;00&quot;00</Keywords>
+            <Keywords name="Folder+">def preferences section { </Keywords>
+            <Keywords name="Folder-">}</Keywords>
+            <Keywords name="Operators">! $ ( )</Keywords>
+            <Keywords name="Comment"> 1/* 2*/ 0//</Keywords>
+            <Keywords name="Words1">&lt; &gt; == &amp;&amp; || = - true false definition</Keywords>
+            <Keywords name="Words2">state. location. evt </Keywords>
+            <Keywords name="Words3">setLocationMode evt  subscribe installed updated initialize unsubscribe log.debug log.trace </Keywords>
+            <Keywords name="Words4">name: namespace: author: description: category: iconUrl: iconX2Url: iconX3Url: title: input humidity switch on off lock unlock list state temperature </Keywords>
+        </KeywordLists>
+        <Styles>
+            <WordsStyle name="DEFAULT" styleID="11" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="FOLDEROPEN" styleID="12" fgColor="000080" bgColor="F0F0FF" fontStyle="1" />
+            <WordsStyle name="FOLDERCLOSE" styleID="13" fgColor="000080" bgColor="DDDDFF" fontStyle="1" />
+            <WordsStyle name="KEYWORD1" styleID="5" fgColor="0000FF" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="KEYWORD2" styleID="6" fgColor="008040" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD3" styleID="7" fgColor="800000" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="KEYWORD4" styleID="8" fgColor="0080C0" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="COMMENT" styleID="1" fgColor="8080FF" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="COMMENT LINE" styleID="2" fgColor="8080C0" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="NUMBER" styleID="4" fgColor="808040" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="OPERATOR" styleID="10" fgColor="800080" bgColor="FFFFFF" fontStyle="1" />
+            <WordsStyle name="DELIMINER1" styleID="14" fgColor="000080" bgColor="FFFFFF" fontStyle="0" />
+            <WordsStyle name="DELIMINER2" styleID="15" fgColor="808040" bgColor="FFFFFF" fontStyle="2" />
+            <WordsStyle name="DELIMINER3" styleID="16" fgColor="000000" bgColor="FFFFFF" fontStyle="0" />
+        </Styles>
+    </UserLang>
+</NotepadPlus>
