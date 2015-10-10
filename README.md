@@ -19,3 +19,7 @@ If you feel so inclined, feel free to add to the keyword types for applicable sy
 I am a novice programmer and am certainly open to suggestions as to how to categorize the different syntax groups. 
 I tried to reflect (to some degree) the configuration of the ST browser based IDE.
 I see each type/setting/action being in a different group. So status (temp, on/off, locked/unlocked, current temp, current humidity, sunset, sunrise, etc...) and actions (changing mode, unsubscribe, initialize, etc...) and configuration (input, section, etc..) would all have their own syntax highlighting.
+
+The easiest way to modify this is to load it, make the changes then re-export it. You can then upload your changes here. If you have a different version of Notepad ++ please create a branch.
+
+!!!Use this at your own risk!!!
